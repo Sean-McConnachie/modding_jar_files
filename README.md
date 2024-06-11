@@ -445,7 +445,7 @@ Chuck in the jar along with CC Tweaked. After opening for the first time, and lo
 
 Open up a MC world, place a turtle on the ground, and observe that it doesn't get destroyed when you break blocks underneath it.
 
-This can easily be extended to other mod packs/blocks by modifying the json. For example, we use the [Building But Better](https://www.curseforge.com/minecraft/mc-mods/building-but-better) mod, for apparant reasons, and in order to prevent the havok the ensues when you destroy a single block and half of your base collapseses, we added `blocks.bbb` to the json.
+This can easily be extended to other mod packs/blocks by modifying the json. For example, we use the [Building But Better](https://www.curseforge.com/minecraft/mc-mods/building-but-better) mod, for apparant reasons, and in order to prevent the havoc the ensues when you destroy a single block and half of your base collapseses, we added `blocks.bbb` to the json.
 
 ### A note on `jar` files:
 
