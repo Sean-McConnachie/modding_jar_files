@@ -1,7 +1,7 @@
 # Modding the Minecraft Physics Mod
 ### Add a block exclude list to the Physics Mod
 
-[![Watch the video](screenshots/thumbnail.png)](PhysicsModDemonstration.mp4)
+[![Watch the video](screenshots/thumbnail.png)](https://youtu.be/fujp4yJOjpc)
 
 We started playing some Minecraft with the [Physics Mod](https://www.curseforge.com/minecraft/mc-mods/physics-mod). We had a ball playing with this package, however, combined with [Computer Craft Tweaked](https://www.curseforge.com/minecraft/mc-mods/cc-tweaked), we ran into a problem where turtles would simply destroy themselves, not even dropping as an item. This happened when the turtle would dig a block, Physics mod does a search for surrounding blocks and appends the turtle to the block list to potentially destroy, and then it would get destroyed; this still doesn't explain why it wasn't dropping an item, but the problem lay further upstream so I moved my attention to that.
 
